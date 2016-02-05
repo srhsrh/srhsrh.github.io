@@ -1,0 +1,30 @@
+@font-face {
+        font-family: 'vazir';
+        src: url('../fonts/Vazir.ttf');
+        src: url('../fonts/Vazir.woff') format('woff'),
+             url('../fonts/Vazir-Bold.ttf') format('truetype'),
+             url('../fonts/Vazir-Bold.ttf') format('truetype'),
+             url('../fonts/Vazir-Bold.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+	font-family: 'Droid Arabic Naskh';
+	src: url('../fonts/DroidNaskh-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Droid Arabic Naskh';
+	font-weight: bold;
+	src: url('../fonts/DroidNaskh-Bold.ttf');
+}
+
+body {
+        direction: rtl;
+        font-family: 'vazir', 'Droid Arabic Naskh', 'Iranian Sans', 'Ubuntu';
+}
+
+h1, h4 {
+    font-family: 'Droid Arabic Naskh', 'Iranian Sans', 'Ubuntu', 'DejaVu Sans', 'Tahoma';
+}
